@@ -119,7 +119,7 @@ const Projects: React.FC = () => {
                             <Image src="/plannedit/plannedit-pres.png" alt="plannedit app" fill
                                     className="rounded-lg object-contain"/>
                            <div className="flex flex-row justify-around gap-4">
-                                <div className="text-md font-sans text-transparent font-bold bg-clip-text bg-gradient-to-r from-[#beced1] to-[#9b9bb8]">PlannedIt - Real Time Chat</div>
+                                <div className="text-md font-sans text-transparent font-bold bg-clip-text bg-gradient-to-r from-[#beced1] to-[#9b9bb8]">PlannedIt <span className="hidden sm:block">- Real Time Chat</span></div>
                                 <Link href="https://github.com/MatthewLacsa/realtime-chat" target="_blank" rel="noopener noreferrer" className="z-50 btn bg-gradient-to-r from-[#c9eef7] to-[#c9c9f5] border-none">
                                    <div className="text-gray-500 hover:text-black">Source Code</div>
                                 </Link>
@@ -132,7 +132,7 @@ const Projects: React.FC = () => {
                                 className="rounded-lg object-contain"/>
 
                             <div className="flex flex-row justify-around gap-4">
-                                <div className="text-md font-sans text-transparent font-bold bg-clip-text bg-gradient-to-r from-[#beced1] to-[#9b9bb8] ">ESCOM - Wiki and Research Forum</div>
+                                <div className="text-md font-sans text-transparent font-bold bg-clip-text bg-gradient-to-r from-[#beced1] to-[#9b9bb8] ">ESCOM <span className="hidden sm:block">- Wiki and Research Forum</span></div>
                                 <button onClick={ ()=> toast.error("This is a private repository, sorry!")} className="hover:cursor-pointer z-50 btn bg-gradient-to-r from-[#c9eef7] to-[#c9c9f5] border-none">
                                     <div className="text-gray-500 hover:text-black">Source Code</div>
                                 </button>
@@ -144,7 +144,7 @@ const Projects: React.FC = () => {
                             <Image src="/notesapp/notes-appfinal.png" alt="notes app" fill
                               className="rounded-lg object-contain"/>
                             <div className="flex flex-row justify-around gap-4">
-                                <div className="text-md font-sans text-transparent font-bold bg-clip-text bg-gradient-to-r from-[#beced1] to-[#9b9bb8]">Notes App - React Native</div>
+                                <div className="text-md font-sans text-transparent font-bold bg-clip-text bg-gradient-to-r from-[#beced1] to-[#9b9bb8]">Notes App <span className="hidden sm:block">- React Native Certification</span></div>
                                     <Link href="https://github.com/MatthewLacsa/MatthewsNotes" target="_blank" rel="noopener noreferrer" className=" z-50 btn bg-gradient-to-r from-[#c9eef7] to-[#c9c9f5] hover:cursor-pointer border-none">
                                       <div className="text-gray-500 hover:text-black">Source Code</div>
                                     </Link>
