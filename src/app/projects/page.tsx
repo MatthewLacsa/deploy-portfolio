@@ -144,7 +144,7 @@ const Projects: React.FC = () => {
                             <Image src="/notesapp/notes-appfinal.png" alt="notes app" fill
                               className="rounded-lg object-contain"/>
                             <div className="flex flex-row justify-around gap-4">
-                                <div className="text-md font-sans text-transparent font-bold bg-clip-text bg-gradient-to-r from-[#beced1] to-[#9b9bb8]">Notes App - React Native Certification</div>
+                                <div className="text-md font-sans text-transparent font-bold bg-clip-text bg-gradient-to-r from-[#beced1] to-[#9b9bb8]">Notes App - React Native</div>
                                     <Link href="https://github.com/MatthewLacsa/MatthewsNotes" target="_blank" rel="noopener noreferrer" className=" z-50 btn bg-gradient-to-r from-[#c9eef7] to-[#c9c9f5] hover:cursor-pointer border-none">
                                       <div className="text-gray-500 hover:text-black">Source Code</div>
                                     </Link>
