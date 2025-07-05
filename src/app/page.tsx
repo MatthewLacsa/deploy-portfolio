@@ -4,7 +4,9 @@ import IconButton from "./components/IconButton";
 import Link from "next/link";
 import dynamic from "next/dynamic";
 import { Suspense } from "react";
-const Spline = dynamic(() => import('@splinetool/react-spline'), { ssr: false });
+const Spline = dynamic(() => import('@splinetool/react-spline/next').then(mod => mod.default), {
+  ssr: false,
+});
 
 export default function Home() {
   return (
