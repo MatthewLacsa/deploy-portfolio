@@ -4,28 +4,14 @@ import IconButton from "./components/IconButton";
 import Link from "next/link";
 import dynamic from "next/dynamic";
 import { Suspense } from "react";
-const Spline = dynamic(() => import('@splinetool/react-spline').then(mod => mod.default), {
-  ssr: false,
-});
+
 
 export default function Home() {
   return (
     
     <div className="relative h-screen flex flex-col items-center justify-center bg-neutral-900 overflow-x-hidden">
       <div className="flex flex-row sm mb-10">
-        <motion.div className="relative w-100 h-[400px] sm:block hidden"
-          initial={{ opacity: 0, scale: 0.5 }}
-                  animate={{ opacity: 0.70, scale: 1 }}
-                  transition={{
-                    duration: 2,
-                    delay: 1,
-                    ease: [0, 0.71, 0.2, 1.01],
-                  }}>
-          <Suspense fallback={<div>Loading 3D..</div>}>
-            <Spline scene="/spline/scene.splinecode" className="w-full h-full" />
-          </Suspense>
-          
-        </motion.div>
+
               {/* Pressable links projects and about me*/}
               <div className=" flex flex-col items-center justify-center">
                 <motion.h1
