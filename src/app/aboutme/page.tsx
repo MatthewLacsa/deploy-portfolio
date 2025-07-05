@@ -209,7 +209,7 @@ const AboutMe: React.FC = () => {
                             <div className="card-title text-2xl font-sans text-transparent bg-clip-text bg-gradient-to-r from-[#7e898b] to-[#f6f6fd]">Music</div>
                             <div className="bg-white/10 rounded-lg p-4 text-left shadow-md">
                                 <div className="text-xl font-semibold font-sans text-transparent bg-clip-text bg-gradient-to-r from-[#92b2b9] to-[#858594]">I was learning how to play a <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#beced1] to-[#9b9bb8]">Guitar</span> years ago, 
-                                        but I set it aside for other priorities. Recently, I have decided to pick it up again and I'm in the process of relearning it.
+                                        but I set it aside for other priorities. Recently, I have decided to pick it up again and I&apos;m in the process of relearning it.
                                 </div>
                             </div>
                             
@@ -231,7 +231,7 @@ const AboutMe: React.FC = () => {
                              <div className="sm:gap-12 gap-3 flex flex-col sm:flex-row  "><Image src="/photography/cafe.jpeg"  alt="cafe" width={220} height={100} className="border-4 border-black"/> 
                                     <button onClick={() => openGallery("photography")} className=" self-center btn rounded-full px-6 py-3 bg-white/10 hover:scale-110 shadow-lg"><span className='text-transparent bg-clip-text bg-gradient-to-r from-[#92b2b9] to-[#858594]'>More photos</span></button></div>
                             <div className="bg-white/10 rounded-lg p-4 text-left shadow-md">
-                                <div className="text-xl font-semibold font-sans text-transparent bg-clip-text bg-gradient-to-r from-[#92b2b9] to-[#858594]">I do photography when I go on <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#beced1] to-[#9b9bb8]">trips</span>, capturing the moment has always been a great feeling, and it's perfect for keeping memories.</div>
+                                <div className="text-xl font-semibold font-sans text-transparent bg-clip-text bg-gradient-to-r from-[#92b2b9] to-[#858594]">I do photography when I go on <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#beced1] to-[#9b9bb8]">trips</span>, capturing the moment has always been a great feeling, and it&apos;s perfect for keeping memories.</div>
                             </div>
                             
                             
