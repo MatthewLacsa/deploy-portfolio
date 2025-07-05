@@ -2,8 +2,6 @@
 import * as motion from "motion/react-client"
 import IconButton from "./components/IconButton";
 import Link from "next/link";
-import dynamic from "next/dynamic";
-import { Suspense } from "react";
 
 
 export default function Home() {
