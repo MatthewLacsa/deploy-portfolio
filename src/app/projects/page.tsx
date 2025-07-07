@@ -93,7 +93,7 @@ const Projects: React.FC = () => {
             <div
                 className="fixed inset-0 z-30 flex  justify-center p-4">
             
-                <motion.div className="relative bg-gradient-to-r from-[#657072] to-[#6a6a7a] rounded-lg max-w-4xl w-full max-h-[90vh] overflow-y-auto p-6" 
+                <motion.div className="relative bg-gradient-to-r from-[#657072] to-[#1e1e27] rounded-lg max-w-4xl w-full max-h-[90vh] overflow-y-auto p-6" 
                     initial={{ opacity: 0, scale: 0.5 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{
@@ -115,24 +115,24 @@ const Projects: React.FC = () => {
 
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                        <div className="relative aspect-square">
-                            <Image src="/plannedit/plannedit-pres.png" alt="plannedit app" fill
+                        <div className="relative aspect-square bg-gradient-to-r from-[#657072] to-[#1e1e27] rounded-2xl overflow-hidden items-center flex flex-col justify-center gap-4">
+                            <Image src="/plannedit/plannedit-pres.png" alt="plannedit app" width={350} height={300}
                                     className="rounded-lg object-contain"/>
                            <div className="flex flex-row justify-around gap-4">
-                                <div className=" self-center text-md font-sans text-transparent font-bold bg-clip-text bg-gradient-to-r from-[#beced1] to-[#9b9bb8]">PlannedIt - RT Chat</div>
+                                <div className=" self-center text-md font-sans text-transparent font-bold bg-clip-text bg-gradient-to-r from-[#beced1] to-[#9b9bb8] sm:block hidden">PlannedIt - RT Chat</div>
                                 <Link href="https://github.com/MatthewLacsa/realtime-chat" target="_blank" rel="noopener noreferrer" className="z-50 btn bg-gradient-to-r from-[#c9eef7] to-[#c9c9f5] border-none">
                                    <div className="text-gray-500 hover:text-black">Source Code</div>
                                 </Link>
 
-                                    <button onClick={() => openInfo('plannedit')} className="hover:cursor-pointer z-50 btn bg-gradient-to-r from-[#c9eef7] to-[#c9c9f5] text-gray-500 hover:text-black border-none">More info</button>
+                                    <button onClick={() => openInfo('plannedit')} className="hover:cursor-pointer z-50 btn bg-gradient-to-r from-[#c9eef7] to-[#c9c9f5] text-gray-500 hover:text-black border-none ">More info</button>
                             </div>
                         </div>
-                         <div className="relative aspect-square">
-                            <Image src="/escom/escom-pres.png" alt="wiki app" fill
+                         <div className="relative aspect-square bg-gradient-to-r from-[#657072] to-[#1e1e27] rounded-2xl overflow-hidden items-center flex flex-col justify-center gap-4">
+                            <Image src="/escom/escom-pres.png" alt="wiki app" width={350} height={300}
                                 className="rounded-lg object-contain"/>
 
                             <div className="flex flex-row justify-around gap-4">
-                                <div className=" self-center text-md font-sans text-transparent font-bold bg-clip-text bg-gradient-to-r from-[#beced1] to-[#9b9bb8] ">ESCOM - Wiki</div>
+                                <div className=" self-center text-md font-sans text-transparent font-bold bg-clip-text bg-gradient-to-r from-[#beced1] to-[#9b9bb8] sm:block hidden">ESCOM - Wiki</div>
                                 <button onClick={ ()=> toast.error("This is a private repository, sorry!")} className="hover:cursor-pointer z-50 btn bg-gradient-to-r from-[#c9eef7] to-[#c9c9f5] border-none">
                                     <div className="text-gray-500 hover:text-black">Source Code</div>
                                 </button>
@@ -140,11 +140,11 @@ const Projects: React.FC = () => {
                             </div>
                           
                         </div>
-                         <div className="relative aspect-square ">
-                            <Image src="/notesapp/notes-appfinal.png" alt="notes app" fill
+                         <div className="relative aspect-square bg-gradient-to-r from-[#657072] to-[#1e1e27] rounded-2xl overflow-hidden items-center flex flex-col justify-center gap-4">
+                            <Image src="/notesapp/notes-appfinal.png" alt="notes app" width={350} height={300}
                               className="rounded-lg object-contain"/>
                             <div className="flex flex-row justify-around gap-4">
-                                <div className="self-center text-md font-sans text-transparent font-bold bg-clip-text bg-gradient-to-r from-[#beced1] to-[#9b9bb8]">Notes - RN App</div>
+                                <div className="self-center text-md font-sans text-transparent font-bold bg-clip-text bg-gradient-to-r from-[#beced1] to-[#9b9bb8] sm:block hidden">Notes - RN App</div>
                                     <Link href="https://github.com/MatthewLacsa/MatthewsNotes" target="_blank" rel="noopener noreferrer" className=" z-50 btn bg-gradient-to-r from-[#c9eef7] to-[#c9c9f5] hover:cursor-pointer border-none">
                                       <div className="text-gray-500 hover:text-black">Source Code</div>
                                     </Link>
